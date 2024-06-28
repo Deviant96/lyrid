@@ -15,9 +15,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (password_verify($password, $user['password'])) {
             $_SESSION['logged_in'] = true;
             $_SESSION['user_id'] = $user['id'];
-            $_SESSION['user_name'] = $user['name'];
+            $_SESSION['user_username'] = $user['username'];
 
             header("Location: success.php");
+            print($user);
             exit();
         } else {
             $error = "Invalid password!";

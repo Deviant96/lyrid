@@ -16,7 +16,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 <body>
     <div class="container">
         <h1>Login Successful</h1>
-        <p>Welcome, <?= htmlspecialchars($_SESSION['user_name']) ?>!</p>
+        <p>Welcome, <?= htmlspecialchars($_SESSION['user_username']) ?>!</p>
         <a href="logout.php" class="btn btn-primary">Logout</a>
     </div>
 </body>
