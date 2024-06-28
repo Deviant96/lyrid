@@ -1,0 +1,138 @@
+:root {
+  --primary-color: #0072ff;
+}
+
+body {
+  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+
+.container {
+  /* background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto; */
+
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+  border-radius: 7px;
+}
+.form-image {
+  text-align: center;
+}
+.form-image i {
+  border-radius: 999px;
+  margin-top: -3%;
+  font-size: 58px;
+  background: white;
+  padding: 20px;
+  color: var(--primary-color);
+}
+
+.form-container {
+  padding: 7%;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-group label {
+  font-weight: bold;
+}
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+#imgPreview {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  /* margin-top: 10px; */
+  display: none;
+  width: 100%;
+  max-width: 180px;
+  height: 220px;
+  max-height: 220px;
+  object-fit: contain;
+}
+
+input,
+textarea,
+button {
+  padding: 8px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+input:focus,
+textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #00bcd4;
+  outline-width: 0;
+  font-weight: 400;
+}
+
+.form-image-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    color: #fff;
+    border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 180px;
+  height: 220px;
+}
+.form-image-square i {
+  font-size: 4rem;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.table-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  .table-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .table th {
+    background-color: #007bff;
+    color: white;
+  }
+  .table td, .table th {
+    padding: 15px;
+    text-align: left;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
